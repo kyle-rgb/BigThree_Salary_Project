@@ -1,0 +1,21 @@
+
+Cleaned DataFrames:
+
+revised_precontract_range_stats_p = 3 Years of Data for pitchers who were in the Top 50 at least once. Data encompenses their stats before the given contract.
+revised_precontract_range_stats_h =  3 Years of Data for batters who were in the Top 50 at least once. Data encompenses their stats before the given contract.
+
+master_top50 = all the salary data for the Top 50 most payed players from 2010 to 2019. 
+
+revised_fifty_pitch = contains contract stats and the stats for the year the contract was signed for pitchers who had an appearence in the Top 50 in the 2010s.
+		      This dataframe drops the duplicates of players who made multiple appearences per year for the same contract. The instance that was kept was done in reverse chronological order, so starting from 2019 until 2010.  
+
+revised_fifty_bats = revised_fifty_pitch but with batting statistics
+
+team_salary_df = Team Salaries for all MLB clubs throughout the decade (Totals, Per Player, Yearly Delta)
+
+master_pitch_clean = all stats for all pitches who played in an MLB game from 2010 to 2019 (Around The Top 600 in terms of most Innings Pitched)
+master_bats_clean = all stats for all batters who played in an MLB game from 2010 to 2019 (Around The Top 600 in terms of Games (G))
+
+
+master_bats_clean_v2 = all batting statistics for mlb Players who had at least 220 ABs.
+master_pitchers_clean_v2 = all pitching statistics for mlb Players who had at least 30 Innings Pitched. 
